@@ -1,4 +1,4 @@
-FROM maven:3-jdk-8-slim
+FROM maven:3-amazoncorretto-21-al2023
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
