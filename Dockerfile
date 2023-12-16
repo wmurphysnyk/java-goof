@@ -1,4 +1,4 @@
-FROM maven:3.9.5-amazoncorretto-21
+FROM maven:3.9.6-amazoncorretto-21
 
 RUN mkdir /usr/src/goof
 RUN mkdir /tmp/extracted_files
